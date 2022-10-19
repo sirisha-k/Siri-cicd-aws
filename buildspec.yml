@@ -13,8 +13,8 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/bike-service-0.0.1-SNAPSHOT.war bike-service-0.0.1-SNAPSHOT.war
+    - mv target/web_ex.war web_ex.war
 artifacts:
   files:
-  - bike-service-0.0.1-SNAPSHOT.war
+  - web_ex.war
   - .ebextensions/**/*
