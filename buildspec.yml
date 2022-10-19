@@ -14,7 +14,9 @@ phases:
     - echo Build completed on `date`
     - mvn package
     - mv target/web_ex.war web_ex.war
+    - mv build/web_ex.war ROOT.war
 artifacts:
   files:
   - web_ex.war
+  - ROOT.war
   - .ebextensions/**/*
